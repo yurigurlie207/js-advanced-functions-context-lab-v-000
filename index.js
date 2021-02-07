@@ -86,7 +86,7 @@ let allWagesFor = function(){
     })
 
     let payable = eligibleDates.reduce(function(memo, d){
-        return memo + wagesEarnedOnDate(employee, d)
+        return memo + wagesEarnedOnDate(this, d)
     }, 0)
 
     return payable
