@@ -22,7 +22,6 @@ let allWagesFor = function () {
 }
 
 
-
 let createEmployeeRecord = function(row){
     return {
         firstName: row[0],
