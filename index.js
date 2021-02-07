@@ -73,3 +73,10 @@ let hoursWorkedOnDate = function(soughtDate){
 
     return (outEvent.hour - inEvent.hour) / 100
 }
+
+let wagesEarnedOnDate = function(employee, dateSought){
+    let rawWage = hoursWorkedOnDate(employee, dateSought)
+        * this.payPerHour
+    return parseFloat(rawWage.toString())
+}
+
