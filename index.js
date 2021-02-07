@@ -21,6 +21,8 @@ let allWagesFor = function () {
     return payable
 }
 
+
+
 let createEmployeeRecord = function(row){
     return {
         firstName: row[0],
