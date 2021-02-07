@@ -59,5 +59,5 @@ let createTimeOutEvent = function(dateStamp){
         date: date
     })
 
-    return employee
+    return this
 }
