@@ -31,3 +31,9 @@ let createEmployeeRecord = function(row){
         timeOutEvents: []
     }
 }
+
+let createEmployeeRecords = function(employeeRowData) {
+    return employeeRowData.map(function(row){
+        return createEmployeeRecord(row)
+    })
+}
