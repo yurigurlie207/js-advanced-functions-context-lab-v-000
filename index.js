@@ -81,7 +81,7 @@ let wagesEarnedOnDate = function(dateSought){
 }
 
 let allWagesFor = function(){
-    let eligibleDates = employee.timeInEvents.map(function(e){
+    let eligibleDates = this.timeInEvents.map(function(e){
         return e.date
     })
 
