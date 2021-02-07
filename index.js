@@ -79,4 +79,3 @@ let wagesEarnedOnDate = function(employee, dateSought){
         * this.payPerHour
     return parseFloat(rawWage.toString())
 }
-
