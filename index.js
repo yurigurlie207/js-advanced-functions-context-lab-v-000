@@ -50,7 +50,7 @@ let createTimeInEvent = function(dateStamp){
     return this
 }
 
-let createTimeOutEvent = function(employee, dateStamp){
+let createTimeOutEvent = function(dateStamp){
     let [date, hour] = dateStamp.split(' ')
 
     employee.timeOutEvents.push({
